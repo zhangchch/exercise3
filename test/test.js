@@ -7,7 +7,7 @@ describe('jQuery', function () {
 
   it('should able to get a body', function () {
     var $body = $('body')
-    $body.size().should.equal(1)
+    $body.length.should.equal(1)
     $body[0].should.equal(document.getElementsByTagName('body')[0])
   })
 
