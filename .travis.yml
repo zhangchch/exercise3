@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "ndde"
+  - "9.3.0"
+install:
+  - npm install karma-cli
+  - npm install
+script: npm run test
